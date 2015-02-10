@@ -1,9 +1,9 @@
 
 public class Human {
 	private String name;
-	//private Dog dog = new Dog();
+	private Dog dog;
+	private boolean owner = false;
 
-	private String[] name1 = {"Snövit", "Törnrosa","Charming","Yllbyll"};
 
 
 	public Human (String name) {
@@ -11,16 +11,23 @@ public class Human {
 
 	}
 
-	public String[] getName1() {
-		return name1;
+	public String getName() {
+		return name;
 	}
 
-	//public buyDog(){ 
-	//}
+	public void buyDog(Dog dog){
+		owner = true;
+		this.dog = dog;
+	}
 
 
-	//public String getInfo(){ 
-	//}
+	public String getInfo(){ 
+		if (owner){
+			return name + " äger en hund som heter " + dog.memberName();
+		} else {
+			return name + " äger inte en hund";
+		}
+	}
 
 
 
