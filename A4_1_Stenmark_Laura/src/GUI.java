@@ -177,7 +177,6 @@ public class GUI extends JFrame {
 		txtErrormessage.setColumns(10);
 		
 		
-		
 		lblNewLabel = new JLabel("Error Message");
 		panel_3.add(lblNewLabel);
 		

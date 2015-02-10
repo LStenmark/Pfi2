@@ -9,7 +9,6 @@ public class Dog {
 	public String memberName(){
 		return name;
 	}
-
 }
 	
 
