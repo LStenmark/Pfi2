@@ -1,7 +1,7 @@
 
 public class Human {
 	private String name;
-	private Dog dog = new Dog();
+	//private Dog dog = new Dog();
 
 	private String[] name1 = {"Snövit", "Törnrosa","Charming","Yllbyll"};
 
@@ -15,12 +15,12 @@ public class Human {
 		return name1;
 	}
 
-	public buyDog(){ 
-	}
+	//public buyDog(){ 
+	//}
 
 
-	public String getInfo(){ 
-	}
+	//public String getInfo(){ 
+	//}
 
 
 

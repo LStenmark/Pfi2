@@ -8,7 +8,7 @@ public class Dog {
 		this.name = name; 
 	}
 
-	private memberName (){ }
+	//private memberName (){ }
 
 }
 	
