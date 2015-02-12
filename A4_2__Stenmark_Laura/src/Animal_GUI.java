@@ -48,7 +48,7 @@ public class Animal_GUI extends JFrame {
 		
 		ArrayList<Animal> a = new ArrayList<Animal>();
 		
-		//Adds  with random values to the list.
+		//Adds animals to the list.
 		a.add(new Cat("lat: Lynx Lynx", 2, 0,2, "Tjoflöjt"));
 		a.add(new Dog("lat: Canis arueus", 5, true, "CapsLock"));
 		a.add(new Cat("lat: Lynx Lynx", 9, 4, "Brödrost"));
