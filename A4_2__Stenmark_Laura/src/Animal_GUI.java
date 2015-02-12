@@ -61,8 +61,6 @@ public class Animal_GUI extends JFrame {
 		{
 			 textArea.append(a.get(i).getInfo());
 		}  
-		
-    	
 	}
 
 }

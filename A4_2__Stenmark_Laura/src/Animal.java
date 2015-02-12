@@ -1,7 +1,7 @@
 
 
 public abstract class Animal {
-	private String latinName;
+	private String latinName; 
 	private String friendlyName = "noname" ;
 
 	public Animal (String latinName) {

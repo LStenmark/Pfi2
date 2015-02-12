@@ -23,5 +23,5 @@ public class Dog extends Mammal {
 	
 	public String getInfo(){
 		 return "The dog named " + getFriendlyName() +   " nurses for " + getGetstationtime() +" months and is " + isStupid() + "\n";
-	};
+	}
 }

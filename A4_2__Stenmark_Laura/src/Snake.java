@@ -19,7 +19,7 @@ public class Snake extends Animal {
 	
 	public String getInfo(){
 	  return "The snake named " + getFriendlyName() + " " + isPoisonus() + "\n";
-	};
+	}
 
 }
 

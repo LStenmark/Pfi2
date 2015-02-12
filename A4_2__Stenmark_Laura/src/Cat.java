@@ -24,5 +24,5 @@ public class Cat extends Mammal {
 	
 	public String getInfo(){
 		return "The cat " + getFriendlyName() +   " nurses for " + getGetstationtime() +" months and has " + getNunberOfLifes() + " lives. \n";		
-	};
+	}
 }
