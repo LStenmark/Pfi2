@@ -49,13 +49,15 @@ public class Animal_GUI extends JFrame {
 		ArrayList<Animal> a = new ArrayList<Animal>();
 		
 		//Adds  with random values to the list.
-		a.add(new Cat("lat: Lynx Lynx", 2, 3, "Tjoflöjt"));
-		a.add(new Dog("canus arueus", 5, true, "CapsLock"));
+		a.add(new Cat("lat: Lynx Lynx", 2, 0,2, "Tjoflöjt"));
+		a.add(new Dog("lat: Canis arueus", 5, true, "CapsLock"));
 		a.add(new Cat("lat: Lynx Lynx", 9, 4, "Brödrost"));
-		a.add(new Snake("Lelopython", true));
-		a.add(new Dog("canus arueus", 8, false, "Rivjärn"));
+		a.add(new Snake("lat:Leiopython fredparkeri", true));
+		a.add(new Dog("lat: Canis arueus", 8, false, "Rivjärn"));
 		a.add(new Cat("lat: Lynx Lynx", 7, 4, "Syntax Error"));
-		a.add(new Snake("Lelopython", false));
+		a.add(new Snake("lat:Leiopython fredparkeri", false));
+		a.add(new Dog("lat: Canis arueus", 20, false, "Nöff"));
+		a.add(new Cat("lat: Lynx Lynx", 60, 1000, "Heelouu"));
 		
 		for(int i = 0; i < a.size(); i++)
 		{

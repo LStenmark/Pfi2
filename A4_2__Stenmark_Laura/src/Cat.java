@@ -13,10 +13,12 @@ public class Cat extends Mammal {
 		setFriendlyName(friendlyName);
 	}
 	
+	//Get number of cat lifes
 	public int getNunberOfLifes() { 
 		return numberOfLifes;
 	}
 	
+	//Set number of cat lifes
 	public void setNumberOfLifes(int lives) { 
 		numberOfLifes=lives;
 

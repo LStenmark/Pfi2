@@ -13,6 +13,7 @@ public class Dog extends Mammal {
 		setFriendlyName(friendlyName);
 	}
 	
+	//Return stupid if dog is stupid, else return not stupid
 	public String isStupid() { 
 		if (stupid){
 			return "stupid";

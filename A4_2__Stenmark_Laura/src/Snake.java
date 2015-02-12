@@ -7,7 +7,7 @@ public class Snake extends Animal {
 		this.poisonus = poisonus;
 	}
 
-	
+	//Return poisonus if snake is poisonus.
 	public String isPoisonus() { 
 		if (poisonus){
 			return "is poisonus";
