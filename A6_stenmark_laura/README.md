@@ -8,3 +8,5 @@ Good work, just needs some polishing.
 4a. Done, the design makes the buttons barely visible
 4b. Done, just check the encoding (e.g UTF-8) so the question marks dissapear. Google it.
 5. Done, needs a "searching"-text while thread is running.
+
+/ Anton
