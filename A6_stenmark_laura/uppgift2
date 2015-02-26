@@ -1,0 +1,19 @@
+1. Mellan vilka stationer sker sökningen?
+Mellan Malmö och Lund
+2. Hur ser en QueryString ut om man bara vill ha 5 resultatet för sökningen (Titta i xsd filen för sök-
+ningen)?
+Man lägger till det här &NoOf=5 i slutet av QueryStringen.
+3. Vilka delar av resan beskriver dessa taggar: <Journeys></Journeys>, <Journey></Jouney>,<Route-
+Links></RouteLinks>, >,<RouteLink></RouteLink>? Placera dem även korrekt hierarkiskt.
+
+<Journeys></Journeys> beskriver alla resor.
+<Journey></Jouney> beskriver en resa.
+<RouteLinks></RouteLinks> beskriver alla byten på resan.
+<RouteLink></RouteLink> beskriver ett byte.
+
+4. Vilken XML-tagg innehåller antal byte för en resa och under vilken huvudtagg är den taggen place-
+rad?
+<NoOfChanges> heter taggen och dens huvudtagg är <Journey>.
+
+5. Ge exempel på en XML tagg som inte finns implementerad i det API du laddade ner.
+<CO2factor>
