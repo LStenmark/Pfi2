@@ -143,7 +143,7 @@ public class GUI extends JFrame {
 		flowLayout_2.setAlignment(FlowLayout.LEFT);
 		panel_1.add(panel_8);
 		
-		JLabel lblNewLabel_2 = new JLabel("Till:");
+		JLabel lblNewLabel_2 = new JLabel("Från:");
 		panel_8.add(lblNewLabel_2);
 		lblNewLabel_2.setVerticalAlignment(SwingConstants.BOTTOM);
 		
@@ -160,7 +160,7 @@ public class GUI extends JFrame {
 		flowLayout_4.setAlignment(FlowLayout.LEFT);
 		panel_1.add(panel_6);
 		
-		JLabel lblNewLabel_3 = new JLabel("Fr\u00E5n:");
+		JLabel lblNewLabel_3 = new JLabel("Till:");
 		panel_6.add(lblNewLabel_3);
 		lblNewLabel_3.setVerticalAlignment(SwingConstants.BOTTOM);
 		
