@@ -17,6 +17,8 @@ public class SearchStation extends Thread {
 		ArrayList<Station> searchStations = new ArrayList<Station>();
 		//Uses the Skanetrafikens API to search for stations and convert them to an arraylist.
 		searchStations.addAll(Parser.getStationsFromURL(search));
+		
+		
 		String s = "";
 		//Replace unnesseccary tokens
 		s = searchStations.toString();

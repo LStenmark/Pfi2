@@ -105,7 +105,8 @@ public class GUI extends JFrame {
 		
 		JButton btnNewButton = new JButton("  S\u00F6k  ");
 		btnNewButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
+			public void actionPerformed(ActionEvent arg0) {			
+				textArea.setText("Searching...");
 				SearchStation s = new SearchStation(gui, textField.getText());
 				s.start();
 			}
@@ -177,6 +178,7 @@ public class GUI extends JFrame {
 		JButton btnNewButton_1 = new JButton("S\u00F6k resa");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
+				textArea_1.setText("Searching...");
 				SearchJourney j = new SearchJourney(gui, textField_1.getText(), textField_2.getText());
 				j.start();
 			}

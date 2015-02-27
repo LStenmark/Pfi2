@@ -31,6 +31,7 @@ public class SearchJourney extends Thread {
 		String searchURL = Constants.getURL(startStation.getStationNbr(),endStation.getStationNbr(),1);
 		Journeys journeys = Parser.getJourneys(searchURL);
 		
+		
 		Journey j = journeys.getJourneys().get(0);
 		String s = j.getLineTypeName() + " från " + j.getStartStation() + "\nTill " + j.getEndStation() + "\nResan börjar " + j.getDepDateTime().getTime() + "\nAnkomst " + j.getArrDateTime().getTime() + "\nTid till avgång är " + j.getTimeToDeparture() + " minuter." + "\nResans tid är " + j.getTravelMinutes() + " minuter. \nAntalet byten är " + j.getNoOfChanges() + "\nAntalet zoner är " + j.getNoOfZones() + "\nAnkomstförsening är " + j.getDepTimeDeviation() + " minuter.\nAvgångsförsening är " + j.getArrTimeDeviation() + " minuter.\nFörsta färdsättet är med " +j.getLineOnFirstJourney(); 
 		
